@@ -1,0 +1,30 @@
+// variables
+@import "./utils/variables";
+
+// base style
+@import "./base/base";
+@import "./base/reset";
+@import "./base/container.scss";
+
+// components style
+@import "./components/section";
+
+
+
+@import "./components/page-header";
+@import "./components/button";
+@import "./components/social";
+@import "./components/section";
+
+
+
+// layouts
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/item-business";
+@import "./layouts/making_deal";
+@import "./layouts/team";
+@import "./layouts/always-clines";
+@import "./layouts/modal-window";
+@import "./layouts/portfolio";
+// @import "./layouts/always-clines";
