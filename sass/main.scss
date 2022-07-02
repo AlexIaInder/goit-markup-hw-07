@@ -8,14 +8,12 @@
 
 // components style
 @import "./components/section";
-
-
-
-@import "./components/page-header";
 @import "./components/button";
 @import "./components/social";
 @import "./components/section";
-
+@import"./components/modal-window";
+@import"./components/form/logo";
+@import"./components/form/form";
 
 
 // layouts
@@ -25,6 +23,5 @@
 @import "./layouts/making_deal";
 @import "./layouts/team";
 @import "./layouts/always-clines";
-@import "./layouts/modal-window";
 @import "./layouts/portfolio";
-// @import "./layouts/always-clines";
+@import "./layouts/footer";

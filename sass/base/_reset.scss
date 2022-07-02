@@ -29,3 +29,8 @@ a {
   display: none;
   cursor: url(../images/icon/cursor.svg), auto;
 }
+*,
+*:focus,
+*:hover {
+  outline: none;
+}
