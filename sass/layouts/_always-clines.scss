@@ -30,32 +30,32 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clines-items__item {
-& .clines-items__link:hover{
+  & .clines-items__link:hover {
     border: 1px solid var(--accent-color);
-      cursor: url(../images/icon/cursor.svg), auto;
+    cursor: url(../images/icon/cursor.svg), auto;
   }
-& .clines-items__link:focus {
-  border: 1px solid var(--accent-color);
-  cursor: url(../images/icon/cursor.svg), auto;
+  & .clines-items__link:focus {
+    border: 1px solid var(--accent-color);
+    cursor: url(../images/icon/cursor.svg), auto;
+  }
 }
-}
-.clines-items__svg{
+.clines-items__svg {
   .clines-items__item:hover & {
     fill: var(--accent-color);
   }
-  
+
   .clines-items__link:focus & {
     fill: var(--accent-color);
   }
 }
 .clines-items__link {
-      width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-          border: 1px solid #afb1b8;
-            border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 .yaco {
   width: 41px;
@@ -81,6 +81,8 @@
   width: 93px;
   height: 43px;
 }
-.container-tile svg {
-  width: 70px;
+.container-tile {
+  svg {
+    width: 70px;
+  }
 }

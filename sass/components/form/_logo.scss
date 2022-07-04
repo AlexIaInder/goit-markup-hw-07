@@ -45,13 +45,18 @@
   width: 16px;
   height: 15px;
 }
-.agree input:checked+label .svg-cube {
-  display: none;
+.agree  {
+  & input:checked+label .svg-cube {
+display: none;
+  } 
 }
-
-.agree input:checked+label .svg-check {
+.agree {
+  & input:checked+label .svg-check {
   display: block;
+  }
 }
-.modal-input:focus+svg {
-  fill: var(--accent-color);
+.modal-input {
+  &:focus+svg {
+     fill: var(--accent-color);
+  }
 }

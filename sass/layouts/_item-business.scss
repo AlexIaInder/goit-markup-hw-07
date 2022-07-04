@@ -1,8 +1,10 @@
 .items-way {
   display: flex;
 }
-.items-way .li-way:not(:last-child) {
-  margin-right: 30px;
+.items-way  {
+  & .li-way:not(:last-child) {
+ margin-right: 30px;
+  }
 }
 .container-tile {
   height: 120px;
@@ -12,8 +14,10 @@
   margin-bottom: 30px;
   justify-content: center;
 }
-.container-tile svg {
-  width: 70px;
+.container-tile  {
+  svg {
+ width: 70px;
+  }
 }
 .subtitle {
   font-weight: 700;
